@@ -21,7 +21,7 @@ class App extends Component {
 
           <footer className="Footer">
             <ul>
-              <li>Facebook</li>
+              <li><i className="fab fa-facebook-square"></i></li>
               <li>InstaGram</li>
               <li>Twitter</li>
             </ul>
