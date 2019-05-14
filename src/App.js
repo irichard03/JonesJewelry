@@ -16,7 +16,9 @@ class App extends Component {
           </nav>
   
           <section className="Page">
-            <p>blah blah blah</p>
+            <article className="PageContent">
+              <p>blah blah blah</p>
+            </article>
           </section>
 
           <footer className="Footer">
