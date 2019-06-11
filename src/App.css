@@ -48,7 +48,11 @@ li {
 
   h3 {
     font-size: 1.20em;
-    color: #414579; 
+    color: #372A34; 
+    background-image: linear-gradient(#EEDDCD, white);
+    background-color: #EEDDCD;
+    display: fixed-bottom;
+    height: 60px;
   }
 
   .logo {
@@ -68,10 +72,10 @@ li {
 
   p {
     background-color: #EEDDCD;
-    color: #414579;
+    color: #372A34;
     padding: 4px;
     border-radius: 8px;
-    border: solid 4px #414579;
+    border: solid 4px #372A34;
     margin-left: 5px;
     margin-right: 5px;
   }
@@ -85,9 +89,8 @@ li {
 
   .NavBar {
     display: block;
-    background-image: linear-gradient(#694011, #69403C);
+    background-image: linear-gradient(#694011, #372A34);
     height: 70px;
-    border: 1px black solid;
   }
 
 
