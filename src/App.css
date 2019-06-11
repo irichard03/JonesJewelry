@@ -20,14 +20,12 @@ li {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
   .App {
-    
     width: 100%;
-    height:100%;
-    
+    height:100%;    
   }
   
   .Container {
-    display:block;
+    display: block;
     margin: 1px 1px 1px 1px;
     background-color: white;
     height: 566px;
@@ -36,98 +34,97 @@ li {
 
   .Page {
     display: block;
-    margin: 1px 1px 1px 1px;
-    height: 354px;
-    width: 314px;
+    height: 426px;
     background-image: url("./raul-cacho-oses-1382988-unsplash.jpg");
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+  h2 {
+    background-color: #372A34;
+    color: #EEDDCD;
+    padding: 4px;
+    text-align: center;
   }
 
+  h3 {
+    font-size: 1.20em;
+    color: #414579; 
+  }
+
+  .logo {
+    margin-left: auto;
+    padding-top: 14px;
+    display: block;
+    margin-right: auto;
+    height: 90px;
+    width: 90px;
+    background-image: linear-gradient(#694011, #372A34);
+    border: 2px solid #372A34;
+    text-align: center;
+    font-size: 2em;
+    color: #EEDDCD;
+    border-radius: 45px;
+  }
+
+  p {
+    background-color: #EEDDCD;
+    color: #414579;
+    padding: 4px;
+    border-radius: 8px;
+    border: solid 4px #414579;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
   .PageContent {
-    display: inline-block;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    display: float;
     margin-left: auto;
     margin-right: auto;
-    width: 214px;
-    background-color: antiquewhite;
-    color: black;
+    width: 300px;
+    text-align: center;
   }
 
   .NavBar {
     display: block;
-    margin: 1px 1px 1px 1px;
-    background-color: white;
-    height: 80px;
-    width: 314px;
+    background-image: linear-gradient(#694011, #69403C);
+    height: 70px;
     border: 1px black solid;
   }
 
+
   ul {
     width: 100%;
+    
   }
   li {
+    color: #EE852C;
+    font-weight: bolder;
     width: 33%;
   }
 
   li:hover {
-    color: red;
+    color: #D92E41;
   }
  
-
   .Footer {
-    display: block;
-    margin: 1px 1px 1px 1px;
-    background-color: white;
-    height: 80px;
-    width: 314px;
-    border: 1px black solid;
-
-  }
-
-  .Copy {
-    display: block;
-    margin: 1px 1px 1px 1px;
-    color: white;
-    background-color: black;
     text-align: center;
-    height: 47px;
-    width: 314px;
-
+    display: block;
+    background-color: white;
+    height: 70px;
+    border: 1px black solid;
   }
-
-  
- 
 }
 
 @media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
   /* Styles */
 
-  .App {
-    background-color: red;
-    width: 400px;
-    height: 400px;
-    
-  }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) {
   /* Styles */
 
-  .App {
-    background-color: green;
-    width: 800px;
-    height: 800px;
-    
-  }
 }
 
 @media only screen and (min-device-width : 1200px) {
   /* Styles */
 
-  .App {
-    background-color: yellow;
-    width: 1200px;
-    height: 1200px;
-    
-  }
 }
